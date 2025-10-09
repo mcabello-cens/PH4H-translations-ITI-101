@@ -20,6 +20,8 @@ Ejemplo:
 <img width="530" height="483" alt="image" src="https://github.com/user-attachments/assets/812bc044-6e1e-4cb4-af07-f53b590424c9" />
 
 
+## Traducciones de codigos locales hacia otras terminologías ##
+
 ### ANTECEDENTES LOCAL -> SNOMED ###
 
 ```
