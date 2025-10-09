@@ -1,13 +1,10 @@
 ## ##
 
 * Todos los request son GET.
-* Si deseas usar POST, entonces mueve los parametros a un recurso Parameter y luego se invoca POST {{snowstorm}}/Concept/$translate 
+* Si deseas usar POST, entonces mueve los parametros a un recurso Parameter y luego se invoca POST {{snowstorm}}/Concept/$translate
+* 
 
 ## ANTECEDENTES LOCAL -> SNOMED ##
-
-
-<code style="orange : name_color"> la URL de tu CodeSystmem Local</code>
-
 
 ```
 {{snowstorm}}/ConceptMap/$translate
