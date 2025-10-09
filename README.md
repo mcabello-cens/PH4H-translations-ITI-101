@@ -1,6 +1,6 @@
 ## General ##
 
-* Todos los request son GET.
+* Todos los request son de tipo GET.
 * Si deseas usar POST, entonces mueve los parametros a un recurso Parameter y luego se invoca POST {{snowstorm}}/Concept/$translate
 * 
 
