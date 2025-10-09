@@ -17,7 +17,7 @@ Pasos para construir un request translate:
 
 Ejemplo:
 
-<img width="1061" height="966" alt="image" src="https://github.com/user-attachments/assets/68267e79-49f6-42da-b714-d2db847224a2" />
+<img width="530" height="483" alt="image" src="https://github.com/user-attachments/assets/68267e79-49f6-42da-b714-d2db847224a2" />
 
 
 
