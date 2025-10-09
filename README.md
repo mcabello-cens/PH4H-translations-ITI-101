@@ -6,7 +6,7 @@
 ## ANTECEDENTES LOCAL -> SNOMED ##
 
 
-<code style="color : name_color">// la URL de tu CodeSystmem Local</code>
+<code style="orange : name_color"> la URL de tu CodeSystmem Local</code>
 
 
 ```
