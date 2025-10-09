@@ -2,7 +2,11 @@
 
 * Todos los request son de tipo GET.
 * Si deseas usar POST, entonces mueve los parametros a un recurso Parameter y luego se invoca POST {{snowstorm}}/Concept/$translate
-* 
+
+
+&system=http://node-acme.org/terminology  
+→ <span style="color:orange">la URL de tu CodeSystem Local</span>
+
 
 ### ANTECEDENTES LOCAL -> SNOMED ###
 
