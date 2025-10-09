@@ -25,7 +25,7 @@ Ejemplo:
 ```
 {{snowstorm}}/ConceptMap/$translate
 ?url=http://racsel.org/fhir/ConceptMap/vs-antecedentes-local-to-racsel
-&system=http://node-acme.org/terminology   // la URL de tu CodeSystmem Local
+&system=http://node-acme.org/terminology
 &source=http://racsel.org/fhir/ValueSet/antecedentes-personales-local-vs
 &target=http://racsel.org/fhir/ValueSet/antecedentes-personales-racsel-vs
 &code=ant-1
