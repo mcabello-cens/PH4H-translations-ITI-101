@@ -1,10 +1,10 @@
-## ##
+## General ##
 
 * Todos los request son GET.
 * Si deseas usar POST, entonces mueve los parametros a un recurso Parameter y luego se invoca POST {{snowstorm}}/Concept/$translate
 * 
 
-## ANTECEDENTES LOCAL -> SNOMED ##
+### ANTECEDENTES LOCAL -> SNOMED ###
 
 ```
 {{snowstorm}}/ConceptMap/$translate
@@ -16,7 +16,7 @@
 ```
 
 
-## DIAGNOSTICOS LOCAL --> CIE-10 ##
+### DIAGNOSTICOS LOCAL --> CIE-10 ###
 
 ```
 {{snowstorm}}/ConceptMap/$translate
@@ -28,7 +28,7 @@
 ```
 
 
-## ALERGIAS LOCAL --> SNOMED
+### ALERGIAS LOCAL --> SNOMED
 ```
 {{snowstorm}}/ConceptMap/$translate
 ?url=http://racsel.org/fhir/ConceptMap/vs-alergias-local-to-snomed
@@ -39,7 +39,7 @@
 ```
 
 
-## VACUNAS LOCAL --> CIE11 ##
+### VACUNAS LOCAL --> CIE11 ###
 ```
 {{snowstorm}}/ConceptMap/$translate
 ?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-local-to-cie11
@@ -50,7 +50,7 @@
 ```
 
 
-## VACUNAS LOCAL --> SNOMED ##
+### VACUNAS LOCAL --> SNOMED ###
 ```
 {{snowstorm}}/ConceptMap/$translate
 ?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-local-to-snomed
@@ -60,7 +60,7 @@
 &code=vac-1
 ```
 
-## VACUNAS PREQUAL --> SNOMED ##
+### VACUNAS PREQUAL --> SNOMED ###
 ```
 {{snowstorm}}/ConceptMap/$translate
 ?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-prequal-to-snomed
@@ -71,7 +71,7 @@
 ```
 
 
-## MEDICACION LOCAL --> SNOMED ##
+### MEDICACION LOCAL --> SNOMED ###
 ```
 {{snowstorm}}/ConceptMap/$translate
 ?url=http://racsel.org/fhir/ConceptMap/vs-medicacion-local-to-snomed
@@ -81,7 +81,7 @@
 &code=med-1
 ```
 
-## PROCEDIMIENTOS LOCAL --> SNOMED ##
+### PROCEDIMIENTOS LOCAL --> SNOMED ###
 
 
 
