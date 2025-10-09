@@ -1,3 +1,8 @@
+## ##
+
+* Todos los request son GET.
+* Si deseas usar POST, entonces mueve los parametros a un recurso Parameter y luego se invoca POST {{snowstorm}}/Concept/$translate 
+
 ## ANTECEDENTES LOCAL -> SNOMED ##
 {{snowstorm}}/ConceptMap/$translate
 
