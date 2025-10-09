@@ -2,7 +2,6 @@
 
 * Todos los request son de tipo GET.
 * Si deseas usar POST, entonces mueve los parametros a un recurso Parameter y luego se invoca POST {{snowstorm}}/Concept/$translate
-* la url del CodeSystem usada es http://node-acme.org/terminology. En tu caso debes usar la URL asignada
 * Ejemplo:
   * Colombia -> http://node-CO.org/terminology
   * Argentina -> http://node-AR.org/terminology
@@ -13,7 +12,7 @@
 3. Abre el ConceptMap y rescata **url** y  los url valueSet los atributos **sourceUri** y **targetUri**. Usarás estos parámetros para construir el $translate
 4. Si tienes dudas del contenido de un valueset del paso anterior, puedes hacer un $expand para retornar el conjunto de codigos
    * GET {{snowstorm}}/ValueSet/$expand?url=http://racsel.org/fhir/ValueSet/antecedentes-personales-local-vs
-5. Agrega el codigo del concepto (**code**) y su url (**system**) de codesystem subyacente.
+5. Agrega el codigo del concepto (**code**) y su url (**system**) de codesystem subyacente. la url del CodeSystem usada en los ejemplos es http://node-acme.org/terminology. En tu caso debes usar la URL asignada
 
 Ejemplo:
 
