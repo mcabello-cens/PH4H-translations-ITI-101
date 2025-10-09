@@ -5,10 +5,14 @@
 
 ## ANTECEDENTES LOCAL -> SNOMED ##
 
+
+<code style="color : name_color">// la URL de tu CodeSystmem Local</code>
+
+
 ```
 {{snowstorm}}/ConceptMap/$translate
 ?url=http://racsel.org/fhir/ConceptMap/vs-antecedentes-local-to-racsel
-&system=http://node-acme.org/terminology   <code style="color : name_color">// la URL de tu CodeSystmem Local</code>
+&system=http://node-acme.org/terminology   // la URL de tu CodeSystmem Local
 &source=http://racsel.org/fhir/ValueSet/antecedentes-personales-local-vs
 &target=http://racsel.org/fhir/ValueSet/antecedentes-personales-racsel-vs
 &code=ant-1
