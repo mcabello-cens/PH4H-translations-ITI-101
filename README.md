@@ -5,7 +5,7 @@
 * la url del CodeSystem usada es http://node-acme.org/terminology. En tu caso debes usar la URL asignada
 * Ejemplo:
   * Colombia -> http://node-CO.org/terminology
-  * Argentina -> http://node-CO.org/terminology
+  * Argentina -> http://node-AR.org/terminology
 
 ### Pasos para construir un request translate: ###
 1. Busca en tu servidor terminologico un ConceptMap para la traducción requerida
