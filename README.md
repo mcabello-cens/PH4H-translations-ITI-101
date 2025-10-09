@@ -22,7 +22,7 @@ Ejemplo:
 
 ## Traducciones de codigos locales hacia otras terminologías ##
 
-### ANTECEDENTES LOCAL -> SNOMED ###
+### ANTECEDENTES LOCAL => SNOMED ###
 
 ```
 {{snowstorm}}/ConceptMap/$translate
@@ -34,7 +34,7 @@ Ejemplo:
 ```
 
 
-### DIAGNOSTICOS LOCAL --> CIE-10 ###
+### DIAGNOSTICOS LOCAL => CIE-10 ###
 
 ```
 {{snowstorm}}/ConceptMap/$translate
@@ -46,7 +46,7 @@ Ejemplo:
 ```
 
 
-### ALERGIAS LOCAL --> SNOMED
+### ALERGIAS LOCAL => SNOMED
 ```
 {{snowstorm}}/ConceptMap/$translate
 ?url=http://racsel.org/fhir/ConceptMap/vs-alergias-local-to-snomed
@@ -57,7 +57,7 @@ Ejemplo:
 ```
 
 
-### VACUNAS LOCAL --> CIE11 ###
+### VACUNAS LOCAL => CIE11 ###
 ```
 {{snowstorm}}/ConceptMap/$translate
 ?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-local-to-cie11
@@ -68,7 +68,7 @@ Ejemplo:
 ```
 
 
-### VACUNAS LOCAL --> SNOMED ###
+### VACUNAS LOCAL => SNOMED ###
 ```
 {{snowstorm}}/ConceptMap/$translate
 ?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-local-to-snomed
@@ -78,7 +78,7 @@ Ejemplo:
 &code=vac-1
 ```
 
-### VACUNAS PREQUAL --> SNOMED ###
+### VACUNAS PREQUAL => SNOMED ###
 ```
 {{snowstorm}}/ConceptMap/$translate
 ?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-prequal-to-snomed
@@ -89,7 +89,7 @@ Ejemplo:
 ```
 
 
-### MEDICACION LOCAL --> SNOMED ###
+### MEDICACION LOCAL => SNOMED ###
 ```
 {{snowstorm}}/ConceptMap/$translate
 ?url=http://racsel.org/fhir/ConceptMap/vs-medicacion-local-to-snomed
@@ -99,7 +99,7 @@ Ejemplo:
 &code=med-1
 ```
 
-### PROCEDIMIENTOS LOCAL --> SNOMED ###
+### PROCEDIMIENTOS LOCAL => SNOMED ###
 ```
 http://192.168.10.18:8180/fhir/ConceptMap/$translate
 ?url=http://racsel.org/fhir/ConceptMap/vs-procedimientos-local-to-snomed
