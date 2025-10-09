@@ -98,7 +98,13 @@ Ejemplo:
 ```
 
 ### PROCEDIMIENTOS LOCAL --> SNOMED ###
-
-
+```
+http://192.168.10.18:8180/fhir/ConceptMap/$translate
+?url=http://racsel.org/fhir/ConceptMap/vs-procedimientos-local-to-snomed
+&system=http://node-acme.org/terminology
+&source=http://racsel.org/fhir/ValueSet/procedimientos-local-vs
+&target=http://racsel.org/fhir/ValueSet/procedimientos-vs
+&code=pro-2
+```
 
 
