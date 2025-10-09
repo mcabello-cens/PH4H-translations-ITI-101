@@ -10,7 +10,10 @@
 Pasos para construir un request translate:
 1. Busca en tu servidor terminologico un ConceptMap para la traducción requerida
 2. En el servidor el nombre de los ConceptMaps da entrega una indicación de que elementos puede traducir. Verás algo asi como VSVacunasLocalToSnomed, VSAntecedentesLocalToCIE10.
-3. Abre el ConceptMap y rescata los url valueSet del 
+3. Abre el ConceptMap y rescata **url** y  los url valueSet los atributos **sourceUri** y **targetUri**. Usarás estos parámetros para construir el $translate
+4. Si tienes dudas del contenido de un valueset del paso anterior, puedes hacer un $expand para retornar el conjunto de codigos
+   * GET {{snowstorm}}/ValueSet/$expand?url=http://racsel.org/fhir/ValueSet/antecedentes-personales-local-vs
+5. Agrega el codigo del concepto (**code**) y su url (**system**) de codesystem subyacente.
 
 
 ### ANTECEDENTES LOCAL -> SNOMED ###
