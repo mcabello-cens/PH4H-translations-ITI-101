@@ -7,7 +7,7 @@
   * Colombia -> http://node-CO.org/terminology
   * Argentina -> http://node-CO.org/terminology
 
-Pasos para construir un request translate:
+### Pasos para construir un request translate: ###
 1. Busca en tu servidor terminologico un ConceptMap para la traducción requerida
 2. En el servidor el nombre de los ConceptMaps da entrega una indicación de que elementos puede traducir. Verás algo asi como VSVacunasLocalToSnomed, VSAntecedentesLocalToCIE10.
 3. Abre el ConceptMap y rescata **url** y  los url valueSet los atributos **sourceUri** y **targetUri**. Usarás estos parámetros para construir el $translate
