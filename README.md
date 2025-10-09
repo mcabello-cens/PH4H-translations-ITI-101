@@ -2,7 +2,15 @@
 
 * Todos los request son de tipo GET.
 * Si deseas usar POST, entonces mueve los parametros a un recurso Parameter y luego se invoca POST {{snowstorm}}/Concept/$translate
-* la url del CodeSystem usada es http://node-acme.org/terminology. En tu caso debes usar la URL asignada (ejemplo: Colombia: http://node-CO.org/terminology, Argentina: http://node-CO.org/terminology)
+* la url del CodeSystem usada es http://node-acme.org/terminology. En tu caso debes usar la URL asignada
+* Ejemplo:
+  * Colombia -> http://node-CO.org/terminology
+  * Argentina -> http://node-CO.org/terminology
+
+Pasos para construir un request translate:
+1. Busca en tu servidor terminologico un ConceptMap para la traducción requerida
+2. En el servidor el nombre de los ConceptMaps da entrega una indicación de que elementos puede traducir. Verás algo asi como VSVacunasLocalToSnomed, VSAntecedentesLocalToCIE10.
+3. Abre el ConceptMap y rescata los url valueSet del 
 
 
 ### ANTECEDENTES LOCAL -> SNOMED ###
