@@ -17,8 +17,7 @@ Pasos para construir un request translate:
 
 Ejemplo:
 
-<img width="530" height="483" alt="image" src="https://github.com/user-attachments/assets/68267e79-49f6-42da-b714-d2db847224a2" />
-
+<img width="530" height="483" alt="image" src="https://github.com/user-attachments/assets/812bc044-6e1e-4cb4-af07-f53b590424c9" />
 
 
 ### ANTECEDENTES LOCAL -> SNOMED ###
