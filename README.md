@@ -1,5 +1,5 @@
 ## ANTECEDENTES LOCAL -> SNOMED ##
-http://192.168.10.18:8180/fhir/ConceptMap/$translate
+{{snowstorm}}/ConceptMap/$translate
 
 ?url=http://racsel.org/fhir/ConceptMap/vs-antecedentes-local-to-racsel
 
@@ -14,7 +14,7 @@ http://192.168.10.18:8180/fhir/ConceptMap/$translate
 
 
 ## DIAGNOSTICOS LOCAL --> CIE-10 ##
-http://192.168.10.18:8180/fhir/ConceptMap/$translate
+{{snowstorm}}/ConceptMap/$translate
 
 ?url=http://racsel.org/fhir/ConceptMap/vs-diagnosticos-local-to-cie10
 
@@ -29,7 +29,7 @@ http://192.168.10.18:8180/fhir/ConceptMap/$translate
 
 
 ## ALERGIAS LOCAL --> SNOMED
-http://192.168.10.18:8180/fhir/ConceptMap/$translate
+{{snowstorm}}/ConceptMap/$translate
 
 ?url=http://racsel.org/fhir/ConceptMap/vs-alergias-local-to-snomed
 
@@ -44,7 +44,7 @@ http://192.168.10.18:8180/fhir/ConceptMap/$translate
 
 
 ## VACUNAS LOCAL --> CIE11 ##
-http://192.168.10.18:8180/fhir/ConceptMap/$translate
+{{snowstorm}}/ConceptMap/$translate
 
 ?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-local-to-cie11
 
@@ -58,7 +58,7 @@ http://192.168.10.18:8180/fhir/ConceptMap/$translate
 
 
 ## VACUNAS LOCAL --> SNOMED ##
-http://192.168.10.18:8180/fhir/ConceptMap/$translate
+{{snowstorm}}/ConceptMap/$translate
 
 ?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-local-to-snomed
 
@@ -72,7 +72,7 @@ http://192.168.10.18:8180/fhir/ConceptMap/$translate
 
 
 ## VACUNAS PREQUAL --> SNOMED ##
-http://192.168.10.18:8180/fhir/ConceptMap/$translate
+{{snowstorm}}/ConceptMap/$translate
 
 ?url=http://racsel.org/fhir/ConceptMap/vs-vacunas-prequal-to-snomed
 
@@ -87,7 +87,7 @@ http://192.168.10.18:8180/fhir/ConceptMap/$translate
 
 
 ## MEDICACION LOCAL --> SNOMED ##
-http://192.168.10.18:8180/fhir/ConceptMap/$translate
+{{snowstorm}}/ConceptMap/$translate
 
 ?url=http://racsel.org/fhir/ConceptMap/vs-medicacion-local-to-snomed
 
