@@ -4,6 +4,8 @@
 * Si deseas usar POST, entonces mueve los parametros a un recurso Parameter y luego se invoca POST {{snowstorm}}/Concept/$translate 
 
 ## ANTECEDENTES LOCAL -> SNOMED ##
+
+```
 {{snowstorm}}/ConceptMap/$translate
 
 ?url=http://racsel.org/fhir/ConceptMap/vs-antecedentes-local-to-racsel
@@ -15,7 +17,7 @@
 &target=http://racsel.org/fhir/ValueSet/antecedentes-personales-racsel-vs
 
 &code=ant-1
-
+```
 
 
 ## DIAGNOSTICOS LOCAL --> CIE-10 ##
