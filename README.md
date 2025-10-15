@@ -29,7 +29,7 @@ Ejemplo:
 &system=http://node-acme.org/terminology
 &source=http://racsel.org/fhir/ValueSet/antecedentes-personales-local-vs
 &target=http://racsel.org/fhir/ValueSet/antecedentes-personales-vs
-&code=ant-1
+&code=ant-1   // reemplaza tu codigo local
 ```
 
 
