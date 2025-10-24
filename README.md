@@ -65,7 +65,13 @@ Ejemplo:
 &target=
 &code=vac-1
 ```
-
+### VACUNAS LOCAL => PREQUAL ###
+GET {{snowstorm}}/ConceptMap/$translate?
+url=http://racsel.org/fhir/ConceptMap/vs-vacunas-local-to-prequal&
+code=[XXXX]&
+system=http://node-acme.org/terminology&
+source=http://racsel.org/fhir/ValueSet/vacunas-local-vs
+target=http://racsel.org/fhir/ValueSet/prequal-vs
 
 ### VACUNAS LOCAL => SNOMED ###
 ```
